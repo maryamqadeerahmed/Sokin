@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<InitialLogin>
+
+  <XPaths>
+    <Element keyword="CorporateIdentity" locator="//*[@id='corporateIdentity']"/>
+    <Element keyword="CorporateUsername" locator="//*[@id='userIdentity']"/>
+    <Element keyword="CorporatePassword" locator="//*[@id='securityToken']"/>
+    <Element keyword="CorporateLoginButton" locator="//*[@id='mainLoginBtn']"/>
+    <Element keyword="CorporateLoginErrorButton" locator="//*[@id='cancelBtn']"/>
+    <Element keyword="CorporateLogoutButton" locator="/html/body/div[3]/div[3]/div/div[2]/div/ul/li[3]/a"/>
+  </XPaths>
+  <!--<Element keyword="username" locator="//*[@id='bankName_div']"/>-->
+  <!--<Element keyword="password" locator="//*[@id='bankName_div']"/>-->
+  <!--<Element keyword="bankName_input" locator="//*[@id='bankName_div']//input"/>
+  <Element keyword="bankName_li" locator="//*[@id='bankName_div']//span"/>
+
+  <Element keyword="accountNumber" locator="//*[@id='accountNumber']"/>
+  <Element keyword="CNIC" locator="//*[@id='CNIC']"/>
+
+  <Element keyword="SendOTPButton" locator="//*[@value='SEND OTP']"/>
+  <Element keyword="ReSendOTPButton" locator="//a[contains(@class,'resendOTPBtn')]"/>
+  <Element keyword="OTP" locator="//*[@id='OTP']"/>
+  <Element keyword="PayButton" locator="//input[@type='button' and @value='PAY']"/>
+  <Element keyword="ErrorMsg" locator="//p[text()='$$REPLACE_HERE$$']"/>-->
+</InitialLogin>
